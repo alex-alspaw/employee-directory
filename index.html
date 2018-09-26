@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>employess</title>
+
+  <!-- Added link to the jQuery Library 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>-->
+
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <!-- Jumbotron for Title -->
+  <div class="jumbotron">
+    <h1 class="text-center">Employee Directory</h1>
+    <!--<h3 class="text-center">Perform basic mathematic operations using the power of jQuery!</h3>-->
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+
+       <!-- <button id="delete">Try it</button>
+
+       Menu Card -->
+      <div class="col-lg-4">
+        <div class="card">
+          <h3 class="card-header">Main Menu</h3>
+
+          <div class="card-body">
+
+            <button class="btn btn-secondary btn-sm" id="view">
+              <h6>View</h6>
+            </button><br>
+            <button class="btn btn-secondary btn-sm" id="add">
+              <h6>Add</h6>
+            </button><br>
+            <button class="btn btn-secondary btn-sm" id="update">
+              <h6>Update</h6>
+            </button><br>
+            <button class="btn btn-secondary btn-sm" id="delete">
+              <h6>Delete</h6>
+            </button><br>
+            <button class="btn btn-secondary btn-sm" id="verify">
+              <h6>Verify</h6>
+            </button>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Result Card -->
+      <div class="col-lg-6">
+        <div class="card">
+          <h3 class="display-header"></h3>
+          <div class="card-body">
+            <p id="first-number"></p>
+            <!--<button class="btn btn-primary" type="submit">Button</button>
+            <form id="frm1">
+              First name: <input type="text" name="fname"><br>
+              Last name: <input type="text" name="lname"><br><br>
+              <input type="button" value="Submit">
+            </form>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="dom.js"></script>
+  <script src="employeeList.js"></script>
+  <script src="app.js"></script>
+
+
+</body>
+
+</html>
